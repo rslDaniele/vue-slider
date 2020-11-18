@@ -21,7 +21,7 @@ var app = new Vue({
 
       this.photoIndex--;
 
-      if (this.photoIndex<=0) {
+      if (this.photoIndex<0) {
           this.photoIndex=(this.image.length-1);
       }
       console.log(this.photoIndex);
